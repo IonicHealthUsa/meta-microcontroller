@@ -5,8 +5,6 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384
 inherit allarch
 
 SRC_URI = "file://60-avr-dev-devices.rules"
-UNPACKDIR ?= "${WORKDIR}/sources-unpack"
-S = "${UNPACKDIR}"
 PV = "0.1"
 
 do_install () {
